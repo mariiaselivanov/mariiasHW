@@ -1,0 +1,36 @@
+.body{
+
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    background-color: #fff;
+    height: 1800px;
+    margin: 0 auto;
+    position: relative;
+    top:20px;
+    transition: 3s;
+}
+.logo{
+    display: inline-block;
+}
+
+.top-line{
+    height: 150px;
+    background-color: #10c73b ;
+}
+.soc-site{
+    background-image: url(../img/Social_circle.png);
+    width: 56px;
+    height: 56px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: -46px -28px;
+}
+.soc-site:hover{
+    background-position: -46px -95px;
+
+}
